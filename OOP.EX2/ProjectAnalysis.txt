@@ -1,0 +1,47 @@
+﻿SDD => system design documantation
+
+Online payment
+
+main princple in coding, don't reapet your self=> DRY
+Datadesign entities shape
+Serivce function
+العميل محتاج يشوف ايه
+Output(المخرجات)
+
+
+عشان اديله المخرجات ديه محتاجه يدخل ايه
+Input(المدخلات)
+
+
+
+----Entities:
+
+People Parent
+User child from people
+Empolyee child from people
+Investors child from people
+suppliers child from people
+Userrole
+
+MainCategory
+SubCatageory
+product
+brand
+ProductDesplay
+
+banner
+Massages
+-------
+Relationship (related data between entities):
+ايه بيحتوي على بيانات من ايه ؟
+	MainCategory > subCategory > brand   > product
+ex: Electorinecs> Mobile   > samsong >  n91
+
+relationship types:
+1. one to one. ex.student and contant info 
+2. one to many. ex. electorinecs and mobile // engine and car
+3. many to many. ex. lacture and student // course and student
+
+------
+OOP
+people contain (user, empolyee, investor, suppliers)
